@@ -80,7 +80,7 @@ const Page: React.FC = () => {
       </section>
 
       {/* CTA */}
-      <section className="relative z-10 px-6 py-20 text-center">
+      <section id="pricing" className="relative z-10 px-6 py-20 text-center">
         <h2 className="text-4xl md:text-5xl font-bold mb-8">
           Ready to Transform Your <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Communication?</span>
         </h2>
