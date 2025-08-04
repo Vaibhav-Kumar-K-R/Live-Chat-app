@@ -41,21 +41,31 @@ A real-time, full-stack chat application built with **Socket.IO**, **TailwindCSS
    cd Live-Chat-app
    
 2. # For backend
-cd server
-npm install
+   ```bash
+   cd server
+   npm install
+   ```
 
 3.# For frontend
-cd ../client
-npm install
+   ``` bash
+   cd ../client
+   npm install
+   ```
 
-4.cd server
+4.
+```bash
+cd server
 npm run dev
+```
 
-5.cd client
+5.
+```bash
+cd client
 npm run dev
+```
 
 
-🧪 Usage
+#Usage
 Visit the home page.
 
 Create or join a room.
@@ -64,18 +74,13 @@ Start chatting with others in real-time.
 
 
 
-🤝 Contributing
-Contributions, issues, and feature requests are welcome!
-
-Fork the repo
-
-Create your feature branch: git checkout -b feature-name
-
-Commit your changes: git commit -m 'Add some feature'
-
-Push to the branch: git push origin feature-name
-
-Open a pull request
+#Contributing
+1.Contributions, issues, and feature requests are welcome!
+2.Fork the repo
+3.Create your feature branch: git checkout -b feature-name
+4.Commit your changes: git commit -m 'Add some feature'
+5.Push to the branch: git push origin feature-name
+6.Open a pull request
 
 
 
