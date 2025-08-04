@@ -2,7 +2,8 @@
 
 A real-time, full-stack chat application built with **Socket.IO**, **TailwindCSS**, **Radix UI**, and a **Node.js + TypeScript** backend. Users can instantly create chat rooms and exchange messages in real time.
 
-🔗 **GitHub**: [Live Chat App](https://github.com/Vaibhav-Kumar-K-R/Live-Chat-app)
+🔗 **GitHub**: [Live Chat App](https://github.com/Vaibhav-Kumar-K-R/Live-Chat-app)  
+🌐 **Live Website**: [https://chatroomslive.netlify.app](https://chatroomslive.netlify.app)
 
 ---
 
@@ -23,13 +24,13 @@ A real-time, full-stack chat application built with **Socket.IO**, **TailwindCSS
 - React
 - TailwindCSS
 - Radix UI
-- Socket.IO client
+- Socket.IO Client
 
 **Backend:**
 - Node.js
 - TypeScript
 - Express
-- Socket.IO server
+- Socket.IO Server
 
 ---
 
@@ -39,48 +40,27 @@ A real-time, full-stack chat application built with **Socket.IO**, **TailwindCSS
    ```bash
    git clone https://github.com/Vaibhav-Kumar-K-R/Live-Chat-app.git
    cd Live-Chat-app
-   
-2. # For backend
-   ```bash
-   cd server
-   npm install
-   ```
+2. Install backend dependencies
+    ```bash
+    cd server
+    npm install
 
-3.# For frontend
-   ``` bash
+3. Install frontend dependencies
+    ```bash
    cd ../client
    npm install
-   ```
 
-4.
-```bash
-cd server
-npm run dev
+ 4.Start the backend server
+   ```bash
+   cd ../server
+   npm run dev
 ```
 
-5.
-```bash
-cd client
-npm run dev
-```
-
-
-#Usage
-Visit the home page.
-
-Create or join a room.
-
-Start chatting with others in real-time.
+5.Start the frontend app
+   ```bash
+   cd ../client
+   npm run dev
 
 
 
-#Contributing
-1.Contributions, issues, and feature requests are welcome!
-2.Fork the repo
-3.Create your feature branch: git checkout -b feature-name
-4.Commit your changes: git commit -m 'Add some feature'
-5.Push to the branch: git push origin feature-name
-6.Open a pull request
-
-
-
+    
