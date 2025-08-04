@@ -49,18 +49,12 @@ A real-time, full-stack chat application built with **Socket.IO**, **TailwindCSS
     ```bash
    cd ../client
    npm install
-
- 4.Start the backend server
+4.Start the backend server
    ```bash
    cd ../server
    npm run dev
 ```
-
 5.Start the frontend app
    ```bash
    cd ../client
    npm run dev
-
-
-
-    
