@@ -40,21 +40,25 @@ A real-time, full-stack chat application built with **Socket.IO**, **TailwindCSS
    ```bash
    git clone https://github.com/Vaibhav-Kumar-K-R/Live-Chat-app.git
    cd Live-Chat-app
+   ```
 2. Install backend dependencies
     ```bash
     cd server
     npm install
+    ```
 
 3. Install frontend dependencies
     ```bash
    cd ../client
    npm install
+    ```
 4.Start the backend server
    ```bash
    cd ../server
    npm run dev
-```
+   ```
 5.Start the frontend app
    ```bash
    cd ../client
    npm run dev
+   ```
