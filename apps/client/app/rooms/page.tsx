@@ -218,7 +218,7 @@ export default function Page() {
              Featuring Room Logic that lets you create and join rooms for private conversations.
             </CardDescription>
             <CardDescription>
-              Rooms get automatically deleted when empty.
+              Rooms get automatically deleted when left empty for about an hour.
             </CardDescription>
           </CardHeader>
           <CardContent>
