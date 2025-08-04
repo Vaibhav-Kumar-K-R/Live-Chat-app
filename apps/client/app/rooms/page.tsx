@@ -212,7 +212,7 @@ export default function Page() {
           <CardHeader className="space-y-1">
             <CardTitle className="text-2xl flex items-center gap-2 font-bold">
               <MessageCircleIcon className="w-6 h-6" />
-              Real Time Chat
+             Chat Rooms Live
             </CardTitle>
             <CardDescription>
              Featuring Room Logic that lets you create and join rooms for private conversations.
