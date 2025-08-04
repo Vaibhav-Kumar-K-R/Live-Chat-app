@@ -1,81 +1,81 @@
-# Turborepo starter
+# 💬 Live Chat App
 
-This is an official starter Turborepo.
+A real-time, full-stack chat application built with **Socket.IO**, **TailwindCSS**, **Radix UI**, and a **Node.js + TypeScript** backend. Users can instantly create chat rooms and exchange messages in real time.
 
-## Using this example
+🔗 **GitHub**: [Live Chat App](https://github.com/Vaibhav-Kumar-K-R/Live-Chat-app)
 
-Run the following command:
+---
 
-```sh
-npx create-turbo@latest
-```
+## 🚀 Features
 
-## What's inside?
+- 🔌 Real-time communication using **Socket.IO**
+- 🧠 Backend in **Node.js** with **TypeScript**
+- 🎨 Beautiful and accessible UI with **TailwindCSS** and **Radix UI**
+- 🏠 Create and join chat rooms instantly
+- ⚡ Instant message send/receive without reloads
+- 📱 Responsive and mobile-friendly
 
-This Turborepo includes the following packages/apps:
+---
 
-### Apps and Packages
+## 🛠️ Tech Stack
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+**Frontend:**
+- React
+- TailwindCSS
+- Radix UI
+- Socket.IO client
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+**Backend:**
+- Node.js
+- TypeScript
+- Express
+- Socket.IO server
 
-### Utilities
+---
 
-This Turborepo has some additional tools already setup for you:
+## 📦 Installation
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Vaibhav-Kumar-K-R/Live-Chat-app.git
+   cd Live-Chat-app
+   
+2. # For backend
+cd server
+npm install
 
-### Build
+3.# For frontend
+cd ../client
+npm install
 
-To build all apps and packages, run the following command:
+4.cd server
+npm run dev
 
-```
-cd my-turborepo
-pnpm build
-```
+5.cd client
+npm run dev
 
-### Develop
 
-To develop all apps and packages, run the following command:
+🧪 Usage
+Visit the home page.
 
-```
-cd my-turborepo
-pnpm dev
-```
+Create or join a room.
 
-### Remote Caching
+Start chatting with others in real-time.
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
 
-```
-cd my-turborepo
-npx turbo login
-```
+🤝 Contributing
+Contributions, issues, and feature requests are welcome!
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+Fork the repo
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
+Create your feature branch: git checkout -b feature-name
 
-```
-npx turbo link
-```
+Commit your changes: git commit -m 'Add some feature'
 
-## Useful Links
+Push to the branch: git push origin feature-name
 
-Learn more about the power of Turborepo:
+Open a pull request
 
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+
+
