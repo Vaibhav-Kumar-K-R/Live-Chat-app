@@ -1,4 +1,4 @@
-# 💬 Live Chat App
+# 💬 Chat Rooms Live
 
 A real-time, full-stack chat application built with **Socket.IO**, **TailwindCSS**, **Radix UI**, and a **Node.js + TypeScript** backend. Users can instantly create chat rooms and exchange messages in real time.
 
